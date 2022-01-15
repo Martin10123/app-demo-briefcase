@@ -44,7 +44,7 @@ const NavbarScreen = () => {
             </li>
             <li className="navbar_list">
               <a
-                href="https://drive.google.com/file/d/1qcxmEHeWeX9vMa7O5dpr1ovdSkzMU3kd/view?usp=sharing"
+                href="https://drive.google.com/file/d/1p6zorX-Ar53pJGvU2d5i0rd03TdjgDcy/view?usp=sharing"
                 rel="noreferrer"
                 target="_blank"
               >
