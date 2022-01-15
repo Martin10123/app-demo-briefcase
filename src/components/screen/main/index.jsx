@@ -32,10 +32,14 @@ const MainScreen = () => {
               className="main_p_desc_pers"
             >
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim,
-                commodi officia adipisci eos at iusto voluptatem neque ad
-                eveniet accusantium sed illum illo quas accusamus cumque,
-                molestias laborum blanditiis! Ipsum.
+                These are the technologies that I use, depending on how big the
+                app is I see if I use Context or Redux to manage the global
+                state of the application, although I like Redux a lot, I prefer
+                to use Context, just as a matter of choice. <br />
+                <br /> In another case, when creating the styles of the
+                application, I really like to create everything on my own, to
+                have control of everything, although depending on the time and
+                the robustness of the app I prefer to use bootstrap
               </p>
             </div>
             <div className="main_daily">
