@@ -1,4 +1,4 @@
-import todo from "../images/TodoApp/aaa.png";
+import todo from "../images/AppMovies/app-movie.png";
 import hotels from "../images/Hotels/App-heores (19).png";
 import appMine from "../images/NotesMine/Captura.JPG";
 import appCars from "../images/CarsDemo/Captura.JPG";
@@ -19,6 +19,39 @@ export const dataApps = [
     web: "https://fir-devs-united.web.app/register",
     github: "https://github.com/Martin10123/Devs_united",
     hosting: "Firebase hosting",
+  },
+  {
+    id: 6,
+    status: "Complete",
+    testing: "in process",
+    title: "App movies posters - Demo netflix",
+    tools: ["React", "Firebase", "Git", "Github", "localStorage"],
+    desc: "In this app you can find your favorite movies, you can find the movies in premiere, you can save the ones you like, buy them, rent them and you can leave a comment about that movie in its respective comment section. You have a navbar where you can filter either by category, by price, and by rating. The app has some restrictions and has actions where you have to be logged in to be able to perform them.",
+    img: todo,
+    web: "https://app-movie-new.web.app/",
+    github: "https://github.com/Martin10123/movies-app",
+    hosting: "Firebase Hosting",
+  },
+  {
+    id: 4,
+    status: "Complete",
+    testing: "in process",
+    title: "Calendar App",
+    tools: [
+      "React",
+      "Redux",
+      "Express",
+      "MongoDB",
+      "Heroku",
+      "Git",
+      "Github",
+      "Otras dependencias",
+    ],
+    desc: "This app is about a calendar, in which you can write an event, modify that event and delete that event. It is a very useful app as it helps you organize your events by adding a start and end date.",
+    img: calendarApp,
+    web: "https://calendar-backend-martin.herokuapp.com",
+    github: "https://github.com/Martin10123/Calendar_App",
+    hosting: "Heroku",
   },
   {
     id: 2,
@@ -44,27 +77,7 @@ export const dataApps = [
     github: "https://github.com/Martin10123/Notes-App",
     hosting: "Firebase hosting",
   },
-  {
-    id: 4,
-    status: "Complete",
-    testing: "in process",
-    title: "Calendar App",
-    tools: [
-      "React",
-      "Redux",
-      "Express",
-      "MongoDB",
-      "Heroku",
-      "Git",
-      "Github",
-      "Otras dependencias",
-    ],
-    desc: "This app is about a calendar, in which you can write an event, modify that event and delete that event. It is a very useful app as it helps you organize your events by adding a start and end date.",
-    img: calendarApp,
-    web: "https://calendar-backend-martin.herokuapp.com",
-    github: "https://github.com/Martin10123/Calendar_App",
-    hosting: "Heroku",
-  },
+
   {
     id: 5,
     status: "Complete",
@@ -77,18 +90,7 @@ export const dataApps = [
     github: "https://github.com/Martin10123/cars-demo",
     hosting: "Github pages",
   },
-  {
-    id: 6,
-    status: "in process",
-    testing: "in process",
-    title: "Todo App",
-    tools: ["React", "Redux", "Firebase", "Git", "Github"],
-    desc: "This is an App that contains two options, it gives you the option to write a note or a task. She created this when she was just beginning to learn redux, to fine-tune concepts. You can review your profile and there you can see the notes and tasks you saved, it will give you the option to make them private. You can see your profile and even modify it.",
-    img: todo,
-    web: "",
-    github: "https://github.com/Martin10123/Todo_App",
-    hosting: "",
-  },
+
   {
     id: 7,
     status: "Complete",
