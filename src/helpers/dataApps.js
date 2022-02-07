@@ -24,7 +24,7 @@ export const dataApps = [
     id: 6,
     status: "Complete",
     testing: "in process",
-    title: "App movies posters - Demo netflix",
+    title: "App movies - Demo netflix",
     tools: ["React", "Firebase", "Git", "Github", "localStorage"],
     desc: "In this app you can find your favorite movies, you can find the movies in premiere, you can save the ones you like, buy them, rent them and you can leave a comment about that movie in its respective comment section. You have a navbar where you can filter either by category, by price, and by rating. The app has some restrictions and has actions where you have to be logged in to be able to perform them.",
     img: todo,
